@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     catalogs (0.1.0)
-      rails (> 5)
+      rails (~> 6, > 5)
 
 GEM
   remote: https://rubygems.org/
@@ -162,9 +162,9 @@ PLATFORMS
 
 DEPENDENCIES
   catalogs!
-  rubocop
-  rubocop-rails_config
-  sqlite3
+  rubocop (~> 0.74)
+  rubocop-rails_config (~> 0.7)
+  sqlite3 (~> 1.4)
 
 BUNDLED WITH
    1.17.2
