@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = Catalogs::VERSION
   spec.authors     = ["Eduardo Figarola"]
   spec.email       = ["eduardofigarola@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Catalogs."
-  spec.description = "TODO: Description of Catalogs."
+  spec.homepage    = "https://github.com/efigarolam/catalogs"
+  spec.summary     = "Rails Catalogs Plugin"
+  spec.description = "A way to improve your website dropdowns values in a standard way"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "~> 6.0.0"
+  spec.add_dependency "rails", "> 5"
 
   spec.add_development_dependency "sqlite3"
 end
