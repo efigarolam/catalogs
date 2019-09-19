@@ -1,13 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  model: MyString
-  field: MyString
-  label: MyString
-  value: MyString
+  model: skill
+  field: level
+  label: beginner
+  value: beginner
 
 two:
-  model: MyString
-  field: MyString
-  label: MyString
-  value: MyString
+  model: skill
+  field: level
+  label: proficient
+  value: proficient
