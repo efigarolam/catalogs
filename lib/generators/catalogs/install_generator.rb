@@ -22,5 +22,13 @@ module Catalogs
     def copy_locale_file
       copy_file "catalogs.en.yml", "config/locales/catalogs.en.yml"
     end
+
+    def copy_migrations
+      rake "catalogs:install:migrations"
+    end
+
+    def run_migrations
+      rake "db:migrate"
+    end
   end
 end
