@@ -1,0 +1,8 @@
+en:
+  catalogs:
+    skill:
+      level:
+        labels:
+          intermediate: Intermediate
+        values:
+          intermediate: Intermediate
