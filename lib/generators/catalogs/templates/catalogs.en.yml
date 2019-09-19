@@ -1,0 +1,8 @@
+en:
+  catalogs:
+    model:
+      field:
+        labels:
+          key: value
+        values:
+          key: value
