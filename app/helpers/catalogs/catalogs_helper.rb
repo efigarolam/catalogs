@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Catalogs
   module CatalogsHelper
     def catalog_options_for_select(model, field)

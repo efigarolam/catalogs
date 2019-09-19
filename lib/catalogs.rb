@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "catalogs/engine"
 
 module Catalogs
