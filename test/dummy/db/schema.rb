@@ -10,15 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_19_220536) do
+ActiveRecord::Schema.define(version: 2019_09_22_015658) do
 
   create_table "catalogs_catalogs", force: :cascade do |t|
     t.string "model", null: false
     t.string "field", null: false
-    t.string "label", null: false
+    t.string "label"
     t.string "value", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.boolean "active", default: true
+    t.boolean "internationalizable", default: true
   end
 
 end
