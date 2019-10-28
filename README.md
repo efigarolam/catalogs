@@ -1,5 +1,5 @@
 # Catalogs
-Short description and motivation.
+Keep your dropdowns, typeaheads, autocompleters, checkboxes, radios, etc values organized and localizable in a standard way.
 
 ## Usage
 How to use my plugin.
@@ -8,18 +8,16 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'catalogs'
+gem "catalogs"
 ```
 
 And then execute:
 ```bash
 $ bundle
+$ bin/rails g catalogs:install
 ```
 
-Or install it yourself as:
-```bash
-$ gem install catalogs
-```
+Be aware, migrations will be run!
 
 ## Contributing
 Contribution directions go here.
